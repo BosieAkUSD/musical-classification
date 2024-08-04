@@ -1,55 +1,83 @@
-### Introduction
+# Composer Identification Project
 
-Music is a form of art that is ubiquitous and has a rich history. Different composers have created music with their unique styles and compositions. However, identifying the composer of a particular piece of music can be a challenging task, especially for novice musicians or listeners. The proposed project aims to use deep learning techniques to identify the composer of a given piece of music accurately.
+## Introduction
 
-### Objective
+Welcome to the Composer Identification Project! In this project, we aim to leverage deep learning techniques to accurately identify the composer of a given musical score. This project is ideal for those interested in applying machine learning to the field of music, combining technical skills with an appreciation for classical compositions.
 
-The primary objective of this project is to develop a deep learning model that can predict the composer of a given musical score accurately. The project aims to accomplish this objective by using two deep learning techniques: Long Short-Term Memory (LSTM) and Convolutional Neural Network (CNN).
+## Objective
 
-### Project Timeline
+The primary objective is to develop a deep learning model that can predict the composer of a musical score. We will be using Long Short-Term Memory (LSTM) and Convolutional Neural Network (CNN) architectures to achieve this.
 
-- **Module 2 (by the end of Week 2):** The course instructor will group students into teams of two to three members. Canvas, USD Email, or Slack can be used to find prospective team members.
-- **Module 4 (by the end of Week 4):** Each team's representative will need to submit the "Team Project Status Update Form."
-- **Module 7 (by the end of Week 7):** Each team should submit deliverables for the course project in the final week:
-  - Project Report
-  - Project Notebook
+## Team Members
 
-It is critical to note that no extensions will be given for any of the final projects' due dates for any reason, and final projects submitted after the final due date will not be graded.
+- *** Bosie Akioyamen ***
+- *** Tursun Alkam, PhD *** 
 
-### Dataset
+## Dataset
 
-The project will use a dataset consisting of musical scores from various composers. The dataset will contain MIDI files and sheet music of compositions from well-known classical composers like Bach, Beethoven, Chopin, Mozart, Schubert, etc. The dataset should be labeled with the name of the composer for each score.
+We will be using a dataset that includes MIDI files and sheet music from classical composers such as Bach, Beethoven, Chopin, Mozart, Schubert, etc. Each musical score will be labeled with the composer's name.
 
-### Methodology
+## Methodology
 
-The proposed project will be implemented using the following steps:
+### Step 1: Data Collection
+- **Task:** Obtain and organize the provided dataset.
+- **Action:** Ensure all team members have access to the dataset.
 
-1. **Data Collection:** Data is collected and provided to you.
-2. **Data Pre-processing:** Convert the musical scores into a format suitable for deep learning models. This involves converting the musical scores into MIDI files and applying data augmentation techniques.
-3. **Feature Extraction:** Extract features from the MIDI files, such as notes, chords, and tempo, using music analysis tools.
-4. **Model Building:** Develop a deep learning model using LSTM and CNN architectures to classify the musical scores according to the composer.
-5. **Model Training:** Train the deep learning model using the pre-processed and feature-extracted data.
-6. **Model Evaluation:** Evaluate the performance of the deep learning model using accuracy, precision, and recall metrics.
-7. **Model Optimization:** Optimize the deep learning model by fine-tuning hyperparameters.
+### Step 2: Data Pre-processing
+- **Task:** Convert musical scores into a format suitable for deep learning.
+- **Action:** Convert scores to MIDI files and apply data augmentation techniques.
 
-### Deliverables
+### Step 3: Feature Extraction
+- **Task:** Extract relevant features from the MIDI files.
+- **Action:** Use music analysis tools to extract notes, chords, tempo, etc.
 
-- **Project Report:** A comprehensive documentation/report that describes the methodology, data pre-processing steps, feature extraction techniques, model architecture, and training process for reproducibility and future reference. Write your technical report in APA 7 style (here is a Sample Professional Paper format to follow). Please submit the report in PDF format and use the File naming convention DeliverableName-TeamNumber.pdf; for example, Project_Report-Team1.pdf
-  - Your report should:
-    - contain a reference list that includes any external sources, libraries, or frameworks used during the project, including proper citations or acknowledgments.
-    - include a concluding section or markdown cell that summarizes the project, highlights key findings, and suggests any potential future improvements or extensions to the work.
-- **Project Notebook:** A Jupyter Notebook file (.ipynb) that contains the entire project code, including data pre-processing, feature extraction, model building, training, evaluation, and any additional analysis or visualizations performed during the project.
-  - This deliverable will be exported from a Jupyter Notebook and submitted as a PDF or HTML file.
+### Step 4: Model Building
+- **Task:** Develop the deep learning model using LSTM and CNN architectures.
+- **Action:** Implement and test different model architectures.
 
-### Conclusion
+### Step 5: Model Training
+- **Task:** Train the model using the pre-processed data.
+- **Action:** Utilize Google Colab GPU/TPU for efficient training.
 
-The proposed project aims to use deep learning techniques to accurately predict the composer of a given musical score. The project will be implemented using LSTM and CNN architectures and will involve data pre-processing, feature extraction, model building, training, and evaluation. The final model can be used by novice musicians, listeners, and music enthusiasts to identify the composer of a musical piece accurately.
+### Step 6: Model Evaluation
+- **Task:** Evaluate the model's performance.
+- **Action:** Use accuracy, precision, and recall metrics to assess the model.
 
-### Power Usage for this Project
+### Step 7: Model Optimization
+- **Task:** Optimize the model for better performance.
+- **Action:** Fine-tune hyperparameters and re-evaluate.
 
-- You can use Google Colab GPU and TPU in case you need more computation power. Change your runtime in Google Colab notebook to GPU or TPU.
-- Another option is to buy the subscription in case you need more computational power (recommended). Please follow this link to do so: [Google Colab Pro+](https://colab.research.google.com/signup)
+## Deliverables
 
-**NOTE:** Team members may not get the same grade on the Final Team Project, depending on each team member's level of contribution.
+### Project Report
+- **Format:** APA 7 style, submitted in PDF format.
+- **Contents:**
+  - Methodology
+  - Data Pre-processing Steps
+  - Feature Extraction Techniques
+  - Model Architecture
+  - Training Process
+  - Reference List
+  - Concluding Section with Key Findings and Future Improvements
 
-To understand how your work will be assessed, view the assignment rubric on the Final Team Project page.
+### Project Notebook
+- **Format:** Jupyter Notebook (.ipynb), submitted as PDF or HTML.
+- **Contents:**
+  - Data Pre-processing
+  - Feature Extraction
+  - Model Building
+  - Training and Evaluation
+  - Additional Analysis or Visualizations
+
+## Conclusion
+
+This project aims to apply deep learning techniques to accurately predict the composer of musical scores. By following the outlined steps, we will create a model that can assist musicians, listeners, and enthusiasts in identifying composers with high accuracy.
+
+## Power Usage
+
+- **Google Colab:** Utilize GPU and TPU for training.
+- **Subscription:** Consider Google Colab Pro+ for additional computational power.
+
+**Note:** Team members may receive different grades based on their contribution levels.
+
+For assessment criteria, refer to the assignment rubric on the Final Team Project page.
